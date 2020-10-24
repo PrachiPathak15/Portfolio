@@ -110,3 +110,12 @@ h2{
 	text-align: left;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+.social{
+	height:5vh;
+	width:5vw;
+	border:2px double #27EFD0;
+	object-fit: contain;
+}
+.social:hover{
+      transform:scale(1.25);
+}
