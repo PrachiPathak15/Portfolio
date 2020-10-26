@@ -1,23 +1,52 @@
-body{
-	padding: 10px 10px;
-	margin: 10px 10px;
+html{
+    scroll-behavior: smooth;
 }
-header{
-	background-color: #27EFD0;
+body{	
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+#intro{
+	border:2px solid #000000;
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	color:#000000;
-	padding: 5px;
-	margin: 5px;
-	text-align: left;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	height:100vh;
+	text-align: center;
 }
-a:nav{
+#intro h1,#intro h3,#intro button{
+float: left;
+margin:10px 20px;
+text-align: center;
+}
+#intro button{
+	height: 5vh;
+	width: 6vw;
+	background-color: #27EFD0;
+	color: #000000;
+	border-radius: 38%;
+}
+#intro img{
+	float: left;
+	height:80vh;
+	width: 25vw;
+	/*border:2px solid #000000;*/ 
+	object-fit: contain;
+	margin:20px 20px;
+}
+nav a{
 	font-family: Helvetica;
 	text-decoration: none;
 	display: inline-block;
 	width:20%;
+	height: 5vh;
 	color: #000000;
-	float: left;
-	padding:2px;
+	padding:2px 2px;
+	text-align: center;
+}
+nav:hover{
+	background-color: #C0C0C0;
 }
 a:active{
 	color: #410AF4;
@@ -32,7 +61,6 @@ a:hover{
 	background-color: #000000;
 	color:#C3C0C0;
 	padding:10px;
-	margin:2px;
 	height:80vh;
 	border-radius: 2px;
 	text-align: center;
@@ -43,7 +71,7 @@ a:hover{
 #dp{
 	clear:both;
 	height:40vh;
-	width:32vh;
+	width:31vh;
 	object-fit: contain;
 	border:2px double #27EFD0;
 	margin: 0 auto;
@@ -59,7 +87,6 @@ h2{
 	color:#000000;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding:10px;
-	margin: 2px;
 	border-radius: 2px;
 	height:110vh;
 }
@@ -67,37 +94,43 @@ h2{
 	text-align: center;
 	clear:both;
 }
-.skills{
-	clear: right;
-	margin:20px;
-	border:2px double #27EFD0;
+div .skills{
+	display: block;
+
+    text-align: center;
+	margin:0 auto;
+	border:2px solid #27EFD0;
 	height:10vh;
 	width:18vh;
 	object-fit: contain;
-	margin-right: 35%;
+}
+#second div{
+	float:left;
+	text-align: center;
+	display: inline-block;
+	width:45%;
+    padding: 10px;
+    border-style: outset;
+    border-width: 2px;
+    margin:20px;
 }
 #second ul{
-	float:left;
-	display: inline-block;
-	width:40%;
-    padding: 10px;
-    margin:10px;
+	list-style-type: none;
 }
 #third{
 	background-color: #000000;
 	color:#C3C0C0;
 	padding:10px;
-	margin:2px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	height:80vh;
 }
 #third img{
 	float:left;
-	height:35vh;
+	height:33vh;
 	width: 16vw;
 	border:2px double #27EFD0;
 	object-fit: contain;
-	margin-left: 25%
+	margin-left: 25%;
 }
 #third ul{
 	float:left;
@@ -106,15 +139,23 @@ h2{
 	background-color: #27EFD0;
 	color:#000000;
 	padding: 5px;
-	margin: 5px;
 	text-align: left;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+#contact a{
+	margin-left: auto;
+	margin-right: auto;
+}
 .social{
+	display: block;
 	height:5vh;
 	width:5vw;
 	border:2px double #27EFD0;
 	object-fit: contain;
+	border-radius: 25%;
+	display: inline-block;
+	text-align: center;
+	margin:0 auto;
 }
 .social:hover{
       transform:scale(1.25);
