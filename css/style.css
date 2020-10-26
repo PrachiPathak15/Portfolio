@@ -68,6 +68,9 @@ body{
 	}
 }
 .counter{
+	position: relative;
+	left: 0;
+	top: 100vh;
 	display: block;
 	width: 100%;
 	height: 40vh;
