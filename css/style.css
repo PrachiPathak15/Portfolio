@@ -38,12 +38,11 @@ body{
 	color: #FFFFFF;
 }
 .outer nav:hover{
-	background-color: #FFFFFF;
+	
 	color:#D2691E;
 }
 .outer a:hover{
 	color: #D2691E;
-	text-align: center;
 }
 .details h1,.details h2{
 	color: #FFFFFF;
