@@ -4,9 +4,12 @@
 	<meta charset="utf-8">
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-	<div class="container">
+	<div class="containr">
 		<div class="outer">
 			<nav>
 					<a href="">HOME</a>
@@ -19,6 +22,30 @@
 				<h1>Hey! I'm Prachi Pathak</h1>
 				<h2>I'm an aspiring Software Engineer</h2>
 				<a href=".intro"><button>PORTFOLIO</button></a>
+			</div>
+		</div>
+	</div>
+	<div class="counter">
+		<div class="element">
+			<div class="icon">
+				<div class="iconbox"><i class="fa fa-code"></i></div>
+				<p class="size">4</p>
+				<p>LANGUAGES I KNOW</p>
+			</div>
+			<div class="icon">
+				<div class="iconbox"><i class="fa fa-laptop"></i></div>
+				<p class="size">1</p>
+				<p>SITES BUILT</p>
+			</div>
+			<div class="icon">
+				<div class="iconbox"><i class="fa fa-coffee"></i></div>
+				<p class="size">246</p>
+				<p>CUPS OF COFFEE</p>
+			</div>
+			<div class="icon">
+				<div class="iconbox"><i class="fa fa-graduation-cap"></i></div>
+				<p class="size">1</p>
+				<p>YEARS OF LEARNING</p>
 			</div>
 		</div>
 	</div>
@@ -37,5 +64,46 @@
 			</p>
 		</div>
 	</div>
+	<div class="skills">
+		<h2 class="center">MY SKILLS</h2>
+		<div class="place">
+			<div class="textoverimage" style="background-image: url('images/c.jpg');" style="background-repeat: no-repeat;" data-text="C/C++
+			I can make programs in C/C++. I prefer using C++ for Competitive Programming."></div>
+			<div class="textoverimage" style="background-image: url(images/python.jpeg);" style="background-repeat: no-repeat;" data-text="Python
+			I know the syntax and semantics of pyhton. I can build programs in it"></div>
+			<div class="textoverimage" style="background-image: url(images/css.jpg);" style="background-repeat: no-repeat;" data-text="Web Development
+			I can build a website using html css and js. This is my first website."></div>
+		</div>
+		<div class="place">
+			<div class="textoverimage" style="background-image: url(images/dance.jpeg);"  style="background-repeat: no-repeat;"data-text="Dance
+			I like to dance a lot. I even have participated in various competitions in School and have won in them."></div>
+			<div class="textoverimage" style="background-image: url(images/comm.jpg);" style="background-repeat: no-repeat;" data-text="Communication Skills
+			I'm good at interacting with people and I'm able to convey information with them easily."></div>
+			<div class="textoverimage" style="background-image: url(images/study.jpg);" style="background-repeat: no-repeat;" data-text="Exploring
+			I like to explore new things. So whenever I find something interesting I try to learn more and more about it."></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<script src="jquery.counterup.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script>
+		jQuery(document).ready(function( $ )
+		{
+			$('.counter').counterUp({
+            delay: 10,
+            time: 1000
+            });
+		});
+	</script>
 </body>
 </html>
