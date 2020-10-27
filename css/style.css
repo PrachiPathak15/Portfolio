@@ -371,3 +371,6 @@ body{
 	text-align: center;
 	margin: 10px;
 }
+.right-icons:hover{
+	transform: scale(1.25);
+}
