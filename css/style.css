@@ -124,13 +124,22 @@ body{
 	position: absolute;
 	left:40%;
 	top:10%;
-	width:40%;
+	width:35%;
 	display: inline-block;
 	float: left;
 	margin:20px;
 	color:#999999;
 	text-align: left;
 	font-family: Bookman; 
+}
+.intro p:nth-child(2){
+	font-size: 20px;
+}
+.left{
+	text-align: left;
+}
+.center{
+	text-align: center;
 }
 .skills{
 	position: absolute;
@@ -194,4 +203,171 @@ body{
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 1.5em;
+}
+.accom{
+	position: absolute;
+	top: 365vh;
+	left:0;
+	width: 100%;
+	height: 110vh;
+	background-color: #ffffff;
+	color: #999999;
+}
+.accom h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: Bookman;
+}
+.line1{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	height: 40vh;
+	text-align: center;
+}
+.line2{
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	height: 40vh;
+	text-align: center;
+}
+.box{
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	box-shadow: 5px 10px 8px #999999;
+	float: left;
+	height: 260px;
+	width: 260px;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	text-align: center;
+	color: #999999; 
+	transition: 0.5s;
+}
+.box p{
+	display: block;
+	line-height: 1.6;
+	margin: 0 auto;
+}
+.circle{
+	margin-bottom: 10px;
+	height: 60px;
+	padding: 2px 2px;
+	text-align: center;
+	width: 60px;
+	border:2px solid #D2691E;
+	border-radius: 50%;
+	background-color: #D2691E;
+}
+.circle .fa{
+	margin:10px 10px;
+	font-size: 20px;
+	color:#ffffff;
+}
+.box:hover{
+	background-color: #D2691E;
+	color:#ffffff;
+	transition: 0.5s;
+}
+.circle:hover{
+	background-color: #999999;
+	color:#D2691E;
+	transition: 0.5s;
+}
+.contact{
+	position: absolute;
+	top: 475vh;
+	width: 100%;
+	height: 80vh;
+	background-color: #f8f9fa;
+	padding: 20px 50px;
+}
+.contact p{
+	text-align: center;
+	font-family: Bookman;
+	color:#ABA2A2;
+}
+.contact h2{
+	text-align: center;
+	font-family: Bookman;
+	color: #000000;
+	font-weight: bold;
+}
+.form{
+	display: inline-block;
+	position: absolute;
+	top: 50%
+	left:30%;
+	width: 60%;
+	height:60vh;
+	float: left;
+	padding: 40px 40px;
+	margin:10px 10px;
+	background-color: #DFD1D1;
+	border:1px solid #DFD1D1;
+	box-shadow: 5px 5px 8px #DFD1D1; 
+}
+.formbox{
+	margin:10px 10px;
+    padding:10px 10px;
+    border:2px solid #999999;
+}
+.name input{
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+.mail input{
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+.subject input{
+	width: 93%;
+}
+.description textarea{
+	width: 93%;
+}
+.form button{
+	font-family: Bookman;
+	background-color: #999999;
+	color: #ffffff;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.right{
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	padding: 20px 20px;
+	margin:auto;
+	font-family: Bookman;
+}
+.right h5{
+    color: #000000;
+}
+.right p{
+     font-size: 18px;
+     color:#999999;
+     text-align: left;
+}
+.right-icons{
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 4px;
+	border:1px solid #DFD1D1;
+	background-color: #DFD1D1;
+	color: #ffffff;
+	border-radius: 50%; 
+}
+.fa{
+	font-size: 50px;
+	text-align: center;
+	margin: 10px;
 }
