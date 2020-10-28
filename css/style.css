@@ -119,14 +119,14 @@ body{
 }
 .about img{
 	height:100vh;
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-right: 20px;
 	display: inline-block;
 	float: left;
 }
 .intro{
 	position: absolute;
-	left:40%;
+	left:45%;
 	top:10%;
 	width:35%;
 	display: inline-block;
@@ -353,7 +353,7 @@ body{
     color: #000000;
 }
 .right p{
-     font-size: 18px;
+     font-size: 16px;
      color:#999999;
      text-align: left;
 }
@@ -368,8 +368,9 @@ body{
 	color: #ffffff;
 	border-radius: 50%; 
 }
-.fa{
-	font-size: 50px;
+.right-icons .fa{
+	padding-left: 2px;
+	font-size: 20px;
 	text-align: center;
 	margin: 10px;
 }
@@ -424,6 +425,7 @@ footer{
 	color: #ffffff;
 }
 .footer-last .fa{
+	margin: 2px 2px;
 	font-size: 20px;
 	color: #ffffff;
 }
