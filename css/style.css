@@ -81,13 +81,36 @@ body{
 	color: #D2691E;
 }
 .icon{
-	display: inline-block;
 	position: absolute;
 	left: 10%;
 	top: 10%;
 	height: 60%;
-	width: 100vw;
-	text-align: left;
+	width: 18%;
+	text-align: center;
+}
+.icon-1{
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	height: 60%;
+	width: 18%;
+	text-align: center;
+}
+.icon-2{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	height: 60%;
+	width: 18%;
+	text-align: center;
+}
+.icon-3{
+	position: absolute;
+	left: 70%;
+	top: 10%;
+	height: 60%;
+	width: 18%;
+	text-align: center;
 }
 .iconbox{
 	display: inline-block;
@@ -172,8 +195,11 @@ body{
 	width: 250px;
 	height: 250px;
 	float: left;
-	margin: 6px;
+	margin: 10px 10px;
+	border:1px solid #ffffff;
+	border-radius: 4%;
 	background-size: 100%;
+	box-shadow: 5px 10px 8px #999999;
 	background-repeat: no-repeat;
 	background-position: cover;
 	transition: 0.5s;
