@@ -71,22 +71,22 @@
 		<div class="element">
 			<div class="icon">
 				<div class="iconbox"><i class="fa fa-code"></i></div>
-				<p class="size">4</p>
+				<p id="lik_count"class="size lik_count">0</p>
 				<p>LANGUAGES I KNOW</p>
 			</div>
 			<div class="icon-1">
 				<div class="iconbox"><i class="fa fa-laptop"></i></div>
-				<p class="size">1</p>
+				<p id="sb_count" class="size sb_count">0</p>
 				<p>SITES BUILT</p>
 			</div>
 			<div class="icon-2">
 				<div class="iconbox"><i class="fa fa-coffee"></i></div>
-				<p class="size">246</p>
+				<p id="coc_count" class="size coc_count">0</p>
 				<p>CUPS OF COFFEE</p>
 			</div>
 			<div class="icon-3">
 				<div class="iconbox"><i class="fa fa-graduation-cap"></i></div>
-				<p class="size">1</p>
+				<p id="yol_count" class="size yol_count">0</p>
 				<p>YEARS OF LEARNING</p>
 			</div>
 		</div>
@@ -247,8 +247,8 @@
 
 
 
-	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-	<script>
+	<!--/*<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+	<script>/*
 		jQuery(document).ready(function( $ )
 		{
 			$('.counter').counterUp({
@@ -256,6 +256,27 @@
             time: 1000
             });
 		});
+		*/
+	function animateValue(id, start, end, duration) {
+    if (start === end) return;
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 1 : -1;
+    var stepTime = Math.abs(Math.floor(duration / range));
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+	}
+
+	animateValue("lik_count", 0, 4, 1000);
+	animateValue("sb_count", 0, 1, 250);
+	animateValue("coc_count", 0, 246, 1000);
+	animateValue("yol_count", 0, 1, 250);
 	</script>-->
 </body>
 </html>
