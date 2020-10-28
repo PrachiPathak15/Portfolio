@@ -35,7 +35,7 @@
 				<a href="">CONTACT</a>
 			</nav>
 			-->
-		<nav class="navbar ">
+		<nav class="navbar homesection">
 	  		<div class="container-fluid">
 	    		<div class="navbar-header">
 	    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,11 +47,11 @@
 	    		</div>
 	    		<div class="collapse navbar-collapse" id="myNavbar">
 		    		<ul class="nav navbar-nav">
-	    				<li class="active"><a href="#">HOME</a></li>
-						<li><a href="#about">ABOUT</a></li>
-						<li><a href="#skills">SKILLS</a></li>
-						<li><a href="#accom">ACCOMPLISHMENTS</a></li>
-						<li><a href="#contact">CONTACT</a></li>
+	    				<li class="active"><a id="homesection" onclick="scrollToSection(this)" href="#">HOME</a></li>
+						<li><a id="aboutsection" onclick="scrollToSection(this)" href="#">ABOUT</a></li>
+						<li><a id="skillssection" onclick="scrollToSection(this)" href="#">SKILLS</a></li>
+						<li><a id="accomsection" onclick="scrollToSection(this)" href="#">ACCOMPLISHMENTS</a></li>
+						<li><a id="contactsection" onclick="scrollToSection(this)" href="#">CONTACT</a></li>
 		    		</ul>
 		    	</div>
 	  		</div>
@@ -91,7 +91,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="about" id="about">
+	<div class="about aboutsection" id="about">
 		<img src="images/dp.jpg">
 		<div class="intro">
 			<p>MY INTRO</p>
@@ -106,7 +106,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="skills" id="skills">
+	<div class="skills skillssection" id="skills">
 		<h2 class="center">MY SKILLS</h2>
 		<div class="place">
 			<div class="textoverimage" style="background-image: url('images/c.png');" style="background-repeat: no-repeat;" data-text="C/C++
@@ -126,7 +126,7 @@
 		</div>
 	</div>
 
-	<div class="accom" id="accom">
+	<div class="accom accomsection" id="accom">
 		<h2>MY ACCOMPLISHMENTS</h2>
 		<div class="line1">
 			<div class="box"><div class="circle"><i class="fa fa-book"></i></div>
@@ -156,7 +156,7 @@
 	</div>
 
 
-	<div class="contact" id="contact">
+	<div class="contact contactsection" id="contact">
 		<p>CONTACT ME</p>
 		<h2>HAVE A PROJECT?</h2>
 		<div class="form">
@@ -277,6 +277,12 @@
 	animateValue("sb_count", 0, 1, 250);
 	animateValue("coc_count", 0, 246, 1000);
 	animateValue("yol_count", 0, 1, 250);
+
+	function scrollToSection(that){
+    id = $(that).attr("id");
+    $('html,body').animate({
+        scrollTop: $("." + id).offset().top},'slow');
+	}
 	</script>-->
 </body>
 </html>
