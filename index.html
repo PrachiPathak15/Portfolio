@@ -24,7 +24,7 @@
 	
 </head>
 <body>
-	<div class="containr">
+	<div class="containr" id="home">
 		<div class="outer">
 			<!--
 			<nav>
@@ -48,10 +48,10 @@
 	    		<div class="collapse navbar-collapse" id="myNavbar">
 		    		<ul class="nav navbar-nav">
 	    				<li class="active"><a href="#">HOME</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">SKILLS</a></li>
-						<li><a href="#">ACCOMPLISHMENTS</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#skills">SKILLS</a></li>
+						<li><a href="#accom">ACCOMPLISHMENTS</a></li>
+						<li><a href="#contact">CONTACT</a></li>
 		    		</ul>
 		    	</div>
 	  		</div>
@@ -60,7 +60,7 @@
 			<div class="details">
 				<h1>Hey! I'm Prachi Pathak</h1>
 				<h2>I'm an aspiring Software Engineer</h2>
-				<a href=".intro"><button>PORTFOLIO</button></a>
+				<a href="#about"><button>PORTFOLIO</button></a>
 			</div>
 		</div>
 
@@ -91,7 +91,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="about">
+	<div class="about" id="about">
 		<img src="images/dp.jpg">
 		<div class="intro">
 			<p>MY INTRO</p>
@@ -106,7 +106,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="skills">
+	<div class="skills" id="skills">
 		<h2 class="center">MY SKILLS</h2>
 		<div class="place">
 			<div class="textoverimage" style="background-image: url('images/c.jpg');" style="background-repeat: no-repeat;" data-text="C/C++
@@ -126,7 +126,7 @@
 		</div>
 	</div>
 
-	<div class="accom">
+	<div class="accom" id="accom">
 		<h2>MY ACCOMPLISHMENTS</h2>
 		<div class="line1">
 			<div class="box"><div class="circle"><i class="fa fa-book"></i></div>
@@ -156,7 +156,7 @@
 	</div>
 
 
-	<div class="contact">
+	<div class="contact" id="contact">
 		<p>CONTACT ME</p>
 		<h2>HAVE A PROJECT?</h2>
 		<div class="form">
@@ -190,15 +190,53 @@
 				<h5>E-MAIL:</h5>
 				<p>pathakprachi2001@gmail.com</p>
 			</div>
+			<div class="right-details"><div class="right-icons"><i class="fa fa-globe"></i></div>
+			    <h5>WEBSITE:</h5>
+			    <p>https://prachipathak15.github.io/Portfolio/</p>
+			</div>
+		</div>
+	</div>
 
-
+	<footer>
+		<div class="footer-first">
+			<h6>PORTFOLIO</h6>
+			<p>This is my Portfolio Website. I have mentioned all my details here.</p>
+			<a href="#home"><button>Learn More</button></a>
 
 		</div>
 
+		<div class="footer-second">
+			<h6>LINKS</h6>
+			<ul>
+				<li><i class="fa fa-arrow-right"><a href="#home">HOME</a></li></i>
+				<li><i class="fa fa-arrow-right"><a href="#about">ABOUT</a></i></li>
+				<li><i class="fa fa-arrow-right"><a href="#skills">SKILLS</a></i></li>
+				<li><i class="fa fa-arrow-right"><a href="#accom">ACCOMPLISHMENTS</a></i></li>
+				<li><i class="fa fa-arrow-right"><a href="#contact">CONTACT</a></i></li>
+			</ul>
+		</div>
 
-
-
-	</div>
+		<div class="footer-last">
+			<h6>HAVE A QUESTION?</h6>
+			<div class="foot-links">
+				<i class="fa fa-map-marker"></i>BHOPAL
+			</div>
+				<div class="foot-links">
+					<i class="fa fa-phone"></i>xxxxxxxxxx
+				</div>
+					<div class="foot-links">
+						<i class="fa fa-paper-plane-o"></i>pathakprachi2001@gmail.com
+					</div>
+					<div class="foot-icons">
+						<a href="mailto:pathakprachi2001@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.instagram.com/prachiiiiii15/" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/prachi-pathak-270905196/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+					</div>
+		</div>
+		<br>
+		<br>
+		<p id="last">&copyCopyright made in 2020. Contact for more information.</p>
+	</footer>
 
 
 

@@ -1,13 +1,14 @@
 body{
 	margin:0;
 	padding:0;
+	width: 100vw;
 	font-family: Bookman;
 }
 .containr{
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	animation: animate 18s ease infinite;
 	background-repeat: no-repeat;
@@ -18,7 +19,7 @@ body{
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	background-color: rgba(0,0,0,0.5);
 }
@@ -71,7 +72,7 @@ body{
 	left: 0;
 	top: 100vh;
 	padding: 10% auto;
-	width: 100%;
+	width: 100vw;
 	height: 40vh;
 	background-color: #f8f9fa;
 	color: #D2691E;
@@ -82,7 +83,7 @@ body{
 	left: 10%;
 	top: 10%;
 	height: 60%;
-	width: 100%;
+	width: 100vw;
 	text-align: left;
 }
 .iconbox{
@@ -109,7 +110,7 @@ body{
 	left: 0;
 	top: 140vh;
 	height:100vh;
-	width: 100%;
+	width: 100vw;
 	background-color: #FFFFFF;
 	color:#999999; 
 }
@@ -146,7 +147,7 @@ body{
 	left: 0;
 	top:240vh;
 	height: 125vh;
-	width: 100%;
+	width: 100vw;
 	background-color: #f8f9fa;
 	font-family: Bookman;
 	color:#999999;
@@ -208,7 +209,7 @@ body{
 	position: absolute;
 	top: 365vh;
 	left:0;
-	width: 100%;
+	width: 100vw;
 	height: 110vh;
 	background-color: #ffffff;
 	color: #999999;
@@ -278,7 +279,7 @@ body{
 .contact{
 	position: absolute;
 	top: 475vh;
-	width: 100%;
+	width: 100vw;
 	height: 80vh;
 	background-color: #f8f9fa;
 	padding: 20px 50px;
@@ -373,4 +374,65 @@ body{
 }
 .right-icons:hover{
 	transform: scale(1.25);
+}
+footer{
+	position: absolute;
+	top: 555vh;
+	left: 0;
+	height: 80vh;
+	width: 100vw;
+	padding:20px 30px;
+	background-color: #D2691E;
+	color: #ffffff;
+}
+.footer-first{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	height: 30vh;
+	width: 20vw;
+}
+.footer-second{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	height: 30vh;
+	width: 20vw;
+}
+.footer-last{
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	height:30vh;
+	width: 20vw;
+}
+.footer h6{
+	text-align: left;
+	font-family: Bookman;
+}
+.footer-first button{
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 2%;
+}
+.footer-second li{
+	list-style-type: none;
+	
+}
+.footer-second a{
+	color: #ffffff;
+}
+.footer-last .fa{
+	font-size: 20px;
+	color: #ffffff;
+}
+.footer-last .fa:hover{
+	transform: scale(1.5);
+}
+footer #last{
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	color: #ffffff;
+	text-align: center;
 }
