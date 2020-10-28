@@ -173,7 +173,7 @@ body{
 	margin: 6px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: cover;
 	transition: 0.5s;
 	position: relative; 
 }
